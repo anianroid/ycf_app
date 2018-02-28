@@ -14,7 +14,7 @@ class Card extends React.Component {
           <h2>{this.props.title}</h2>
           <p>{this.props.content}</p>
         </div>
-        <div className={this.props.type === "1" ? "card-bg card-bg-right" : "card-bg"} />
+        <div className={this.props.type === "1" ? "card-bg card-bg-right" : "card-bg"} style={{backgroundImage: 'url('+this.props.imageUrl+')', backgroundSize: 'cover'}}/>
       </div>
     );
   }

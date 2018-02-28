@@ -12,7 +12,7 @@ require("./styles.css");
 const App = () => (
   <div>
     <div className="landImage" id="home">
-      <img alt="landing_page_image_of_ycf" src="http://via.placeholder.com/1440x648" />
+      <img alt="landing_page_image_of_ycf" src="./images/1.png" />
     </div>
     <NavBar />
     <Home />

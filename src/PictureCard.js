@@ -3,7 +3,7 @@ import React from "react";
 class PictureCard extends React.Component {
   render() {
     return (
-      <div>
+      <div class="pictureCard">
         <div>
           <img alt="work-img" src={this.props.imageUrl} />
         </div>

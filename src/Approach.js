@@ -15,6 +15,7 @@ class Approach extends React.Component {
             ultrices mi tempus imperdiet. Vel eros donec ac odio tempor. Amet
             massa vitae tortor condimentum. Sed odio morbi quis commodo odio
             aenean sed. Ipsum dolor sit amet consectetur adipiscing elit."
+          imageUrl="./images/2.png"
         />
         <Card
           title="Lorem ipsum dolor"
@@ -24,6 +25,7 @@ class Approach extends React.Component {
             massa vitae tortor condimentum. Sed odio morbi quis commodo odio
             aenean sed. Ipsum dolor sit amet consectetur adipiscing elit."
           type="1"
+          imageUrl="./images/3.png"
         />
         <Card
           title="Lorem ipsum dolor"
@@ -32,6 +34,7 @@ class Approach extends React.Component {
             ultrices mi tempus imperdiet. Vel eros donec ac odio tempor. Amet
             massa vitae tortor condimentum. Sed odio morbi quis commodo odio
             aenean sed. Ipsum dolor sit amet consectetur adipiscing elit."
+          imageUrl="./images/4.png"
         />
       </div>
     );

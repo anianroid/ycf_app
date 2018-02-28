@@ -10,17 +10,17 @@ class OurWork extends React.Component {
         </div>
         <div className="grid-wrapper">
           <PictureCard
-            imageUrl="http://via.placeholder.com/250x250"
+            imageUrl="./images/5.png"
             title="HALASURU TRAVERSES"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
           />
           <PictureCard
-            imageUrl="http://via.placeholder.com/250x250"
+            imageUrl="./images/6.png"
             title="MAKER FAIRE"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
           />
           <PictureCard
-            imageUrl="http://via.placeholder.com/250x250"
+            imageUrl="./images/7.png"
             title="WHATEVER ELSE"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
           />
