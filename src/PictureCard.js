@@ -12,7 +12,7 @@ class PictureCard extends React.Component {
           <p>{this.props.text}</p>
         </div>
         <div>
-          <button>Read More</button>
+          <button class="btn-primary">Read More</button>
         </div>
       </div>
     );

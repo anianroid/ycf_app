@@ -6,7 +6,7 @@ class OurWork extends React.Component {
     return (
       <div id="our_work" className="section ourWorkSection">
         <div>
-          <h1>Our Recent Work</h1>
+          <h1 style={{textAlign: 'center', color: '#333333'}}>Our Recent Work</h1>
         </div>
         <div className="grid-wrapper">
           <PictureCard
@@ -16,12 +16,12 @@ class OurWork extends React.Component {
           />
           <PictureCard
             imageUrl="http://via.placeholder.com/250x250"
-            title="HALASURU TRAVERSES"
+            title="MAKER FAIRE"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
           />
           <PictureCard
             imageUrl="http://via.placeholder.com/250x250"
-            title="HALASURU TRAVERSES"
+            title="WHATEVER ELSE"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
           />
         </div>

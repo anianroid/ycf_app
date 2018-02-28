@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Source+Serif+Pro:400,600');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans";
+  font-family: 'Source Serif Pro', serif;
   overflow: auto;
   color: #333333;
   transition: all 0.2s ease-in-out;
+}
+h1, h2, h3, h4 {
+  font-family: 'Bree Serif', serif;
 }
 .landImage {
   width: 100%;
@@ -28,6 +33,10 @@ button {
   padding: 1em 2em;
   border-radius: 2em;
   cursor: pointer;
+}
+.btn-primary {
+  background-color: #b4a647;
+  border-width: 0px;
 }
 
 .nav {
@@ -55,6 +64,7 @@ button {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
+  background-color: #f1f0ee;
 }
 .card {
   position: relative;
@@ -63,7 +73,12 @@ button {
 .card-bg {
   width: 75%;
   height: 360px;
-  background-color: #27ae60;
+}
+.card:nth-child(1n) > .card-bg {
+  background-color: #b4a647;
+}
+.card:nth-child(2n) > .card-bg {
+  background-color: #827717;
 }
 .card-bg-right {
   margin-left: 14%;
@@ -72,7 +87,7 @@ button {
 .card-content {
   position: absolute;
   padding: 1em;
-  background-color: #2ecc71;
+  background-color: #ffffff;
   width: 300px;
   height: auto;
 }
@@ -85,7 +100,7 @@ button {
   left: -2.5em;
 }
 .section {
-  background-color: #2980b9;
+  background-color: #0277bd;
   color: #f2f2f2;
   padding: 5% 15%;
 }
@@ -113,7 +128,7 @@ button {
 .img-circle {
   padding: 4em 5.5em;
   border-radius: 100%;
-  background-color: #f2f2f2;
+  background-color: #827717;
   text-align: center;
 }
 .img-circle > img {
@@ -127,25 +142,33 @@ button {
   grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 5%;
 }
+.grid-wrapper > div > div:nth-child(2) {
+  padding: 0.5em 1em;
+  background-color: #827717;
+}
+.grid-wrapper > div >  div:nth-child(3){
+  padding: 0.5em;
+  text-align: center;
+}
 .grid-wrapper > div {
   justify-content: center;
   align-items: center;
-  padding: 2% 5%;
 }
 .grid-wrapper > div > div:nth-child(1) {
   display: table;
   margin: 0 auto;
 }
 .ourWorkSection {
-  background-color: #f39c12;
+  background-color: #ffffff;
 }
 
 .footer-wrapper {
-  padding: 2% 15%;
+  padding: 2% 10%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-auto-rows: 1fr;
   grid-auto-flow: dense;
+  grid-gap: 15%;
 }
 
 .footer-wrapper > div{
