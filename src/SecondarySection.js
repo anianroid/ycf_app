@@ -12,7 +12,7 @@ class SecondarySection extends React.Component {
             </p>
           </div>
           <div>
-            <button>READ MORE ABOUT HOW YOU CAN HELP</button>
+            <p style={{margin: '0px', fontSize: '1em', 'fontWeight': '200'}}><button>READ MORE</button> <small>About how you can help!</small></p>
           </div>
         </div>
       </div>
